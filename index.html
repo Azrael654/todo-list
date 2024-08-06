@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="icon" href="icon.svg" type="image/svg+xml">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Todo List</h1>
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <form id="todo-form" class="mb-4">
+                <div class="relative">
+                    <input type="text" id="todo-input" class="w-full p-2 border rounded-lg focus:outline-none" placeholder="Add a new task">
+                    <button type="submit" class="absolute right-2 top-2 bg-blue-500 text-white p-2 rounded"><i class="fas fa-plus"></i></button>
+                </div>
+            </form>
+            <ul id="todo-list" class="list-none"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+
+    <a href="https://github.com/Azrael654/todo-list" target="_blank" class="fixed bottom-5 right-5 bg-gray-800 text-white rounded-full w-12 h-12 flex items-center justify-center shadow-lg transition-transform transform hover:scale-110" aria-label="View source on GitHub">
+      <i class="fab fa-github text-2xl"></i>
+  </a>
+  
+  
+</body>
+</html>

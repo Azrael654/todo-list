@@ -1,0 +1,53 @@
+/* Custom styles if needed */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+[contenteditable="true"] {
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 2px;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative input {
+    padding-right: 2.5rem;
+}
+
+.relative button {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #3b82f6; /* Tailwind's blue-500 */
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    line-height: 1;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.github-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
