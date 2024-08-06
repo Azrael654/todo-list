@@ -1,5 +1,5 @@
 # Todo List App
-
+![Preview](https://i.imgur.com/J2bDRB5.png)
 A simple and visually appealing Todo List application built with JavaScript and Tailwind CSS. This application allows users to manage their tasks with Create, Read, Update, and Delete (CRUD) functionality. The data is saved to local storage and is not persisted in any database or cloud.
 
 ## Features
